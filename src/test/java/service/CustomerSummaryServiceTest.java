@@ -35,7 +35,7 @@ public class CustomerSummaryServiceTest {
     }
 
     @Test
-    public void getCustomerSummeriesShouldReturn() {
+    public void getCustomerSummeriesShouldReturnCustomerSammariesWithRightInformationsFromCustomersTaps() {
         Tap tap1 = new Tap(1,1,"A");
         Tap tap2 = new Tap(2,1,"B");
         Tap tap3 = new Tap(3,2,"C");
